@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dx7seo5ic1lg4"
-path="res://.godot/imported/char_select_char_name_locked.png-ea2007d69a067c786a756ee687f2eeca.ctex"
+uid="uid://cm1kwu82ub5er"
+path="res://.godot/imported/pael_defend.png-a600feab323898215f0134855ef33494.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://PaelCharacter/images/charui/char_select_char_name_locked.png"
-dest_files=["res://.godot/imported/char_select_char_name_locked.png-ea2007d69a067c786a756ee687f2eeca.ctex"]
+source_file="res://PaelCharacter/images/card_portraits/big/pael_defend.png"
+dest_files=["res://.godot/imported/pael_defend.png-a600feab323898215f0134855ef33494.ctex"]
 
 [params]
 

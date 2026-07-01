@@ -1,0 +1,4 @@
+﻿{
+  "PAEL-TO_SLEEP": "Choose {Amount:plural:a card|[blue]{}[/blue] cards} to [gold]Sleep[/gold].",
+  "PAEL-TO_WAX": "Choose {Amount:plural:a card|[blue]{}[/blue] cards} to [gold]Wax[/gold]."
+}

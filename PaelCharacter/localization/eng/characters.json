@@ -1,16 +1,16 @@
 {
   "PAELCHARACTER-PAEL_CHARACTER.aromaPrinciple": "Lore",
-  "PAELCHARACTER-PAEL_CHARACTER.banter.alive.endTurnPing": "Co-op hurry up end turn ping message",
+  "PAELCHARACTER-PAEL_CHARACTER.banter.alive.endTurnPing": "zzZZzz...",
   "PAELCHARACTER-PAEL_CHARACTER.banter.dead.endTurnPing": "...",
-  "PAELCHARACTER-PAEL_CHARACTER.cardsModifierDescription": "__ cards will now appear in rewards and shops.",
-  "PAELCHARACTER-PAEL_CHARACTER.cardsModifierTitle": "__ Cards",
-  "PAELCHARACTER-PAEL_CHARACTER.description": "Character Selection\nScreen Description",
+  "PAELCHARACTER-PAEL_CHARACTER.cardsModifierDescription": "Pael cards will now appear in rewards and shops.",
+  "PAELCHARACTER-PAEL_CHARACTER.cardsModifierTitle": "Pael Cards",
+  "PAELCHARACTER-PAEL_CHARACTER.description": "An ancient slumbering dragon.\nPatient and prudent, waiting for just the right moment to strike.",
   "PAELCHARACTER-PAEL_CHARACTER.eventDeathPrevention": "Co-op survival line",
-  "PAELCHARACTER-PAEL_CHARACTER.goldMonologue": "Line spoken when obtaining a large amount of gold",
-  "PAELCHARACTER-PAEL_CHARACTER.possessiveAdjective": "his/her/its",
-  "PAELCHARACTER-PAEL_CHARACTER.pronounObject": "him/her/it",
-  "PAELCHARACTER-PAEL_CHARACTER.pronounPossessive": "his/hers/its",
-  "PAELCHARACTER-PAEL_CHARACTER.pronounSubject": "he/she/it",
-  "PAELCHARACTER-PAEL_CHARACTER.title": "The PaelCharacter",
-  "PAELCHARACTER-PAEL_CHARACTER.titleObject": "The PaelCharacter"
+  "PAELCHARACTER-PAEL_CHARACTER.goldMonologue": "Add it to the pile, I guess...",
+  "PAELCHARACTER-PAEL_CHARACTER.possessiveAdjective": "his",
+  "PAELCHARACTER-PAEL_CHARACTER.pronounObject": "him",
+  "PAELCHARACTER-PAEL_CHARACTER.pronounPossessive": "his",
+  "PAELCHARACTER-PAEL_CHARACTER.pronounSubject": "he",
+  "PAELCHARACTER-PAEL_CHARACTER.title": "Pael",
+  "PAELCHARACTER-PAEL_CHARACTER.titleObject": "Pael"
 }

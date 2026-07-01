@@ -1,3 +1,10 @@
 {
-  
+  "PAELCHARACTER-PAEL_STRIKE.description": "Deal {Damage:diff()} damage.",
+  "PAELCHARACTER-PAEL_STRIKE.title": "Strike",
+  "PAELCHARACTER-PAEL_DEFEND.description": "Gain {Block:diff()} [gold]Block[/gold].",
+  "PAELCHARACTER-PAEL_DEFEND.title": "Defend",
+  "PAELCHARACTER-SNOOZE.description": "Deal {Damage:diff()} damage.\n[gold]Sleep[/gold] {Sleep:diff()} {Sleep:plural:card|cards}.",
+  "PAELCHARACTER-SNOOZE.title": "Snooze",
+  "PAELCHARACTER-THICK_HIDE.description": "Gain {Block:diff()} [gold]Block[/gold].",
+  "PAELCHARACTER-THICK_HIDE.title": "Thick Hide"
 }

@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://d03geag1ngc2l"]
+
+[ext_resource type="Texture2D" uid="uid://bkrdmii4em2lp" path="res://PaelCharacter/images/ui/dormant_overlay.png" id="1_wvhgq"]
+[ext_resource type="Texture2D" uid="uid://cml1avwib6kca" path="res://PaelCharacter/images/ui/night_overlay.png" id="2_oqxfc"]
+
+[node name="DormantOverlay" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -211.0
+offset_right = 150.0
+offset_bottom = 211.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="NightBackground" type="TextureRect" parent="."]
+modulate = Color(1, 1, 1, 0.34901962)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("2_oqxfc")
+expand_mode = 1
+
+[node name="DormantTexture" type="TextureRect" parent="."]
+layout_mode = 1
+offset_left = -79.27
+offset_top = -50.735
+offset_right = 120.73
+offset_bottom = 149.265
+mouse_filter = 2
+texture = ExtResource("1_wvhgq")
+expand_mode = 1
+stretch_mode = 5

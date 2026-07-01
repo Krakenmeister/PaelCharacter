@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dh23saxmpk6q3"
-path="res://.godot/imported/map_marker_char_name.png-30632df9767ea8110591400ee3850dd2.ctex"
+uid="uid://bjjw6kgn6ipfv"
+path="res://.godot/imported/drip_drop_outline.png-8e51ffc6d0b34f83b0574a2642248506.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://PaelCharacter/images/charui/map_marker_char_name.png"
-dest_files=["res://.godot/imported/map_marker_char_name.png-30632df9767ea8110591400ee3850dd2.ctex"]
+source_file="res://PaelCharacter/images/relics/drip_drop_outline.png"
+dest_files=["res://.godot/imported/drip_drop_outline.png-8e51ffc6d0b34f83b0574a2642248506.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bc4hoi3p7btuo"
-path="res://.godot/imported/char_select_char_name.png-f15ed45fd4cc55470b05975a44a8f185.ctex"
+uid="uid://dt6683vg750v2"
+path="res://.godot/imported/drip_drop.png-5d22f68f140a89a67324c1ebea1b00aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://PaelCharacter/images/charui/char_select_char_name.png"
-dest_files=["res://.godot/imported/char_select_char_name.png-f15ed45fd4cc55470b05975a44a8f185.ctex"]
+source_file="res://PaelCharacter/images/relics/drip_drop.png"
+dest_files=["res://.godot/imported/drip_drop.png-5d22f68f140a89a67324c1ebea1b00aa.ctex"]
 
 [params]
 

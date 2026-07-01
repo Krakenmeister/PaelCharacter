@@ -6,6 +6,8 @@ using MegaCrit.Sts2.Core.Entities.Characters;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Relics;
+using PaelCharacter.PaelCharacterCode.Cards.Basic;
+using PaelCharacter.PaelCharacterCode.Relics.Starter;
 
 namespace PaelCharacter.PaelCharacterCode.Character;
 public class PaelCharacter : PlaceholderCharacterModel
@@ -15,36 +17,33 @@ public class PaelCharacter : PlaceholderCharacterModel
     public static readonly Color Color = new("ffffff");
 
     public override Color NameColor => Color;
-    public override CharacterGender Gender => CharacterGender.Neutral;
+    public override CharacterGender Gender => CharacterGender.Masculine;
     public override int StartingHp => 70;
+    public override int StartingGold => 199;
 
     public override IEnumerable<CardModel> StartingDeck =>
     [
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>()
+        ModelDb.Card<PaelStrike>(),
+        ModelDb.Card<PaelStrike>(),
+        ModelDb.Card<PaelStrike>(),
+        ModelDb.Card<PaelStrike>(),
+        ModelDb.Card<PaelDefend>(),
+        ModelDb.Card<PaelDefend>(),
+        ModelDb.Card<PaelDefend>(),
+        ModelDb.Card<PaelDefend>(),
+        ModelDb.Card<Snooze>(),
+        ModelDb.Card<ThickHide>()
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
     [
-        ModelDb.Relic<BurningBlood>()
+        ModelDb.Relic<DripDrop>()
     ];
 
     public override CardPoolModel CardPool => ModelDb.CardPool<PaelCharacterCardPool>();
     public override RelicPoolModel RelicPool => ModelDb.RelicPool<PaelCharacterRelicPool>();
     public override PotionPoolModel PotionPool => ModelDb.PotionPool<PaelCharacterPotionPool>();
 
-    /*  PlaceholderCharacterModel will utilize placeholder basegame assets for most of your character assets until you
-        override all the other methods that define those assets.
-        These are just some of the simplest assets, given some placeholders to differentiate your character with.
-        You don't have to, but you're suggested to rename these images. */
     public override Control CustomIcon
     {
         get
@@ -55,8 +54,12 @@ public class PaelCharacter : PlaceholderCharacterModel
         }
     }
 
-    public override string CustomIconTexturePath => "character_icon_char_name.png".CharacterUiPath();
-    public override string CustomCharacterSelectIconPath => "char_select_char_name.png".CharacterUiPath();
-    public override string CustomCharacterSelectLockedIconPath => "char_select_char_name_locked.png".CharacterUiPath();
-    public override string CustomMapMarkerPath => "map_marker_char_name.png".CharacterUiPath();
+    public override string CustomIconTexturePath => "character_icon_pael.png".CharacterUiPath();
+    public override string CustomCharacterSelectIconPath => "char_select_pael.png".CharacterUiPath();
+    public override string CustomCharacterSelectLockedIconPath => "char_select_pael_locked.png".CharacterUiPath();
+    public override string CustomMapMarkerPath => "map_marker_pael.png".CharacterUiPath();
+    public override string CustomCharacterSelectBg => "char_select_pael_bg.tscn".CharacterUiPath();
+    
+    public override string CustomVisualPath => "res://PaelCharacter/scenes/pael.tscn";
+    public override string CustomEnergyCounterPath => "res://PaelCharacter/scenes/energy_counter.tscn";
 }

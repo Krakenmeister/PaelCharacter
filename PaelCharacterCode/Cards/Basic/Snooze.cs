@@ -29,7 +29,7 @@ public class Snooze() : PaelCharacterCard(0,
     {
         ArgumentNullException.ThrowIfNull(play.Target, "cardPlay.Target");
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(play.Target).WithHitFx("vfx/vfx_attack_slash").Execute(choiceContext);
-        await SleepCommand.FromHand(choiceContext, Owner, DynamicVars["Sleep"].IntValue, this);
+        await SleepCommand.FromHand(choiceContext, Owner, DynamicVars[SleepVar.Key].IntValue, this);
     }
 
     protected override void OnUpgrade() => DynamicVars.Damage.UpgradeValueBy(3M);

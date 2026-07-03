@@ -12,5 +12,7 @@
   "PAELCHARACTER-MORNING_BREATH.description": "Deal {Damage:diff()} damage.\nThis card is free to play on turns it wakes up.",
   "PAELCHARACTER-MORNING_BREATH.title": "Morning Breath",
   "PAELCHARACTER-PREEMPTIVE_STRIKE.description": "Deal {Damage:diff()} damage.\nCosts 1 less {energyPrefix:energyIcons(1)} for each enemy that intends to attack.",
-  "PAELCHARACTER-PREEMPTIVE_STRIKE.title": "Preemptive Strike"
+  "PAELCHARACTER-PREEMPTIVE_STRIKE.title": "Preemptive Strike",
+  "PAELCHARACTER-PRESERVED_FLOWER.description": "Energy is conserved until your next turn.",
+  "PAELCHARACTER-PRESERVED_FLOWER.title": "Preserved Flower"
 }

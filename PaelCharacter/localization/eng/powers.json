@@ -1,3 +1,5 @@
 {
-  
+  "PAELCHARACTER-PRESERVED_FLOWER_POWER.description": "Energy is not removed at the start of your next turn.",
+  "PAELCHARACTER-PRESERVED_FLOWER_POWER.smartDescription": "Energy is not removed at the start of your next {Amount:plural:turn|{} turns}.",
+  "PAELCHARACTER-PRESERVED_FLOWER_POWER.title": "Preserved Flower"
 }

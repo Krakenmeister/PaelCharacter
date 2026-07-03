@@ -1,4 +1,5 @@
-﻿using PaelCharacter.PaelCharacterCode.CustomEnums;
+﻿using PaelCharacter.PaelCharacterCode.Cards.Common;
+using PaelCharacter.PaelCharacterCode.CustomEnums;
 
 namespace PaelCharacter.PaelCharacterCode.CardModifiers;
 
@@ -66,6 +67,11 @@ public class DormantModifier : CardModifier
 
         if (addedDormantKeyword)
         {
+            if (Owner is MorningBreath)
+            {
+                Owner.EnergyCost.SetThisTurn(0);
+            }
+            
             Owner.RemoveKeyword(PaelCardKeywords.Dormant);
             addedDormantKeyword = false;
         }

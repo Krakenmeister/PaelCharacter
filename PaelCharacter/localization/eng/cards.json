@@ -8,5 +8,7 @@
   "PAELCHARACTER-THICK_HIDE.description": "Gain {Block:diff()} [gold]Block[/gold].",
   "PAELCHARACTER-THICK_HIDE.title": "Thick Hide",
   "PAELCHARACTER-HYPNOTIZE.description": "Rewind the enemy's intent 1 turn",
-  "PAELCHARACTER-HYPNOTIZE.title": "Hypnotize"
+  "PAELCHARACTER-HYPNOTIZE.title": "Hypnotize",
+  "PAELCHARACTER-MORNING_BREATH.description": "Deal {Damage:diff()} damage.\nThis card is free to play on turns it wakes up.",
+  "PAELCHARACTER-MORNING_BREATH.title": "Morning Breath"
 }

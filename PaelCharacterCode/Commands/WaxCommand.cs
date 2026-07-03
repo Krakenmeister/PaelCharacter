@@ -56,10 +56,15 @@ public static class WaxCommand
             return [];
         }
 
-        List<CardModel> selectedCards = validCards
-            .OrderBy(_ => Guid.NewGuid())
-            .Take(amount)
-            .ToList();
+        List<CardModel> selectedCards = [];
+
+        while (selectedCards.Count < amount && validCards.Count > 0)
+        {
+            CardModel selectedCard = player.RunState.Rng.CombatTargets.NextItem(validCards);
+
+            selectedCards.Add(selectedCard);
+            validCards.Remove(selectedCard);
+        }
 
         foreach (CardModel card in selectedCards)
         {

@@ -10,5 +10,7 @@
   "PAELCHARACTER-HYPNOTIZE.description": "Rewind the enemy's intent 1 turn",
   "PAELCHARACTER-HYPNOTIZE.title": "Hypnotize",
   "PAELCHARACTER-MORNING_BREATH.description": "Deal {Damage:diff()} damage.\nThis card is free to play on turns it wakes up.",
-  "PAELCHARACTER-MORNING_BREATH.title": "Morning Breath"
+  "PAELCHARACTER-MORNING_BREATH.title": "Morning Breath",
+  "PAELCHARACTER-PREEMPTIVE_STRIKE.description": "Deal {Damage:diff()} damage.\nCosts 1 less {energyPrefix:energyIcons(1)} for each enemy that intends to attack.",
+  "PAELCHARACTER-PREEMPTIVE_STRIKE.title": "Preemptive Strike"
 }

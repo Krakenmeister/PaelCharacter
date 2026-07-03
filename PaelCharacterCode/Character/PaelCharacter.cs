@@ -7,6 +7,7 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Relics;
 using PaelCharacter.PaelCharacterCode.Cards.Basic;
+using PaelCharacter.PaelCharacterCode.Cards.Common;
 using PaelCharacter.PaelCharacterCode.Relics.Starter;
 
 namespace PaelCharacter.PaelCharacterCode.Character;

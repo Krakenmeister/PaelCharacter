@@ -1,6 +1,6 @@
 {
-  "PAELCHARACTER-DORMANT.description": "This card is Unplayable and Retains until it wakes up next turn.",
+  "PAELCHARACTER-DORMANT.description": "This card cannot be played and stays in your [gold]Hand[/gold] until it wakes up next turn.",
   "PAELCHARACTER-DORMANT.title": "Dormant",
-  "PAELCHARACTER-WAXED.description": "When this card is played or exhausted, gain [blue]2[/blue] Block and remove Waxed.",
+  "PAELCHARACTER-WAXED.description": "When this card is played or exhausted, gain [blue]2[/blue] [gold]Block[/gold] and remove [gold]Waxed[/gold].",
   "PAELCHARACTER-WAXED.title": "Waxed"
 }

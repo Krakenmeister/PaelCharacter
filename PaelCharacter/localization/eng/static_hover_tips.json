@@ -1,6 +1,8 @@
 {
-  "PAELCHARACTER-SLEEP.description": "Add Dormant to a card. Dormant cards are Unplayable and Retain until they wake up next turn.",
+  "PAELCHARACTER-SLEEP.description": "Add [gold]Dormant[/gold] to a card. [gold]Dormant[/gold] cards cannot be played and stay in your [gold]Hand[/gold] until they wake up next turn.",
   "PAELCHARACTER-SLEEP.title": "Sleep",
   "PAELCHARACTER-WAX.title": "Wax",
-  "PAELCHARACTER-WAX.description": "When a Waxed card is played or exhausted, gain [blue]2[/blue] Block, then remove Wax."
+  "PAELCHARACTER-WAX.description": "When a [gold]Waxed[/gold] card is played or exhausted, gain [blue]2[/blue] [gold]Block[/gold], then remove [gold]Waxed[/gold].",
+  "PAELCHARACTER-WAKE.title": "Wake",
+  "PAELCHARACTER-WAKE.description": "Whenever a card loses the [gold]Dormant[/gold] modifier, it wakes up."
 }

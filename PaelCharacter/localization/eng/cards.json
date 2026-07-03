@@ -14,5 +14,7 @@
   "PAELCHARACTER-PREEMPTIVE_STRIKE.description": "Deal {Damage:diff()} damage.\nCosts 1 less {energyPrefix:energyIcons(1)} for each enemy that intends to attack.",
   "PAELCHARACTER-PREEMPTIVE_STRIKE.title": "Preemptive Strike",
   "PAELCHARACTER-PRESERVED_FLOWER.description": "Energy is conserved until your next turn.",
-  "PAELCHARACTER-PRESERVED_FLOWER.title": "Preserved Flower"
+  "PAELCHARACTER-PRESERVED_FLOWER.title": "Preserved Flower",
+  "PAELCHARACTER-SURVIVAL_INSTINCT.description": "Whenever a card wakes up, gain {Power:diff()} [gold]Block[/gold].",
+  "PAELCHARACTER-SURVIVAL_INSTINCT.title": "Survival Instinct"
 }

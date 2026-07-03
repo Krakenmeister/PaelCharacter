@@ -1,5 +1,11 @@
-﻿using PaelCharacter.PaelCharacterCode.Cards.Common;
+﻿using BaseLib.Extensions;
+using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Helpers;
+using MegaCrit.Sts2.Core.Localization.DynamicVars;
+using MegaCrit.Sts2.Core.ValueProps;
+using PaelCharacter.PaelCharacterCode.Cards.Common;
 using PaelCharacter.PaelCharacterCode.CustomEnums;
+using PaelCharacter.PaelCharacterCode.Powers;
 
 namespace PaelCharacter.PaelCharacterCode.CardModifiers;
 
@@ -21,8 +27,7 @@ public class DormantModifier : CardModifier
     
     public override void StoreSaveData(ModifierSave save)
     {
-        save.AdditionalProperties[ReadyToWakeKey] =
-            ReadyToWakeAtStartOfTurn.ToString();
+        save.AdditionalProperties[ReadyToWakeKey] = ReadyToWakeAtStartOfTurn.ToString();
     }
 
     public override void LoadSaveData(ModifierSave save)
@@ -70,6 +75,11 @@ public class DormantModifier : CardModifier
             if (Owner is MorningBreath)
             {
                 Owner.EnergyCost.SetThisTurn(0);
+            }
+
+            if (Owner.Owner.HasPower<SurvivalInstinctPower>())
+            {
+                TaskHelper.RunSafely(CreatureCmd.GainBlock(Owner.Owner.Creature, new BlockVar(Owner.Owner.Creature.GetPower<SurvivalInstinctPower>().Amount, ValueProp.Move), null));
             }
             
             Owner.RemoveKeyword(PaelCardKeywords.Dormant);

@@ -6,6 +6,7 @@ using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models;
+using PaelCharacter.PaelCharacterCode.Utility;
 
 namespace PaelCharacter.PaelCharacterCode.Patches.Sleep;
 

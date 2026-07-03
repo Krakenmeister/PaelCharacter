@@ -61,13 +61,13 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="PaelCharacterCode\Utility\" />
         <Folder Include="PaelCharacter\images\card_portraits\big\"/>
         <Folder Include="PaelCharacter\images\character\" />
         <Folder Include="PaelCharacter\images\powers\big\"/>
         <Folder Include="PaelCharacter\images\relics\big\"/>
         <Folder Include="PaelCharacter\images\ui\" />
-        <Folder Include="PaelCharacter\scenes\" />
+        <Folder Include="PaelCharacter\images\vfx\" />
+        <Folder Include="PaelCharacter\scenes\vfx\" />
     </ItemGroup>
 
     <Target Name="CheckDependencyPaths">

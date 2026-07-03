@@ -1,7 +1,7 @@
 ﻿using MegaCrit.Sts2.Core.Models;
 using PaelCharacter.PaelCharacterCode.Extensions;
 
-namespace PaelCharacter.PaelCharacterCode.Patches.Sleep;
+namespace PaelCharacter.PaelCharacterCode.Utility;
 
 public static class DormantRetainLogic
 {

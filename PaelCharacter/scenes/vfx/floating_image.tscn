@@ -1,0 +1,5 @@
+[gd_scene load_steps=1 format=3 uid="uid://bnt6mhxyci051"]
+
+[node name="FloatingRoot" type="Node2D"]
+
+[node name="FloatingImageTexture" type="Sprite2D" parent="."]

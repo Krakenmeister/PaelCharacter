@@ -6,5 +6,7 @@
   "PAELCHARACTER-SNOOZE.description": "Deal {Damage:diff()} damage.\n[gold]Sleep[/gold] {Sleep:diff()} {Sleep:plural:card|cards}.",
   "PAELCHARACTER-SNOOZE.title": "Snooze",
   "PAELCHARACTER-THICK_HIDE.description": "Gain {Block:diff()} [gold]Block[/gold].",
-  "PAELCHARACTER-THICK_HIDE.title": "Thick Hide"
+  "PAELCHARACTER-THICK_HIDE.title": "Thick Hide",
+  "PAELCHARACTER-HYPNOTIZE.description": "Rewind the enemy's intent 1 turn",
+  "PAELCHARACTER-HYPNOTIZE.title": "Hypnotize"
 }

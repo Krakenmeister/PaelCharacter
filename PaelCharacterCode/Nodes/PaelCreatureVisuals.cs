@@ -134,7 +134,7 @@ public partial class PaelCreatureVisuals : NCreatureVisuals
 	{
 		if (_dripTexture == null || _characterNode == null) return;
 
-		const double dropletFormationTime = 1.0;
+		const double dropletFormationTime = 2.0;
 
 		if (_totalElapsedTime - _lastDripTime <= dropletFormationTime)
 		{

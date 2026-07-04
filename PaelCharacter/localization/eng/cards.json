@@ -16,5 +16,7 @@
   "PAELCHARACTER-PRESERVED_FLOWER.description": "Energy is conserved until your next turn.",
   "PAELCHARACTER-PRESERVED_FLOWER.title": "Preserved Flower",
   "PAELCHARACTER-SURVIVAL_INSTINCT.description": "Whenever a card wakes up, gain {Power:diff()} [gold]Block[/gold].",
-  "PAELCHARACTER-SURVIVAL_INSTINCT.title": "Survival Instinct"
+  "PAELCHARACTER-SURVIVAL_INSTINCT.title": "Survival Instinct",
+  "PAELCHARACTER-NARCOLEPSY.description": "At the start of your turn, [gold]Sleep[/gold] {Sleep:diff()} {Sleep:plural:card|cards}.",
+  "PAELCHARACTER-NARCOLEPSY.title": "Narcolepsy"
 }

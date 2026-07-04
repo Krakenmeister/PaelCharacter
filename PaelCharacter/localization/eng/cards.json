@@ -28,5 +28,7 @@
   "PAELCHARACTER-CLAIM_TRIBUTE.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], gain {Gold:diff()} gold.",
   "PAELCHARACTER-CLAIM_TRIBUTE.title": "Claim Tribute",
   "PAELCHARACTER-GOLDEN_HOARD.description": "Deal {CalculatedDamage:diff()} damage.\\nDeals additional damage for each {GoldDivisor} gold you have.",
-  "PAELCHARACTER-GOLDEN_HOARD.title": "Golden Hoard"
+  "PAELCHARACTER-GOLDEN_HOARD.title": "Golden Hoard",
+  "PAELCHARACTER-WAX_ON_WAX_OFF.description": "Draw {Cards:diff()} {Cards:plural:card|cards}.\nIf it is [gold]Waxed[/gold], play it.{IfUpgraded:show:\\nOtherwise, [gold]Wax[/gold] it.|}",
+  "PAELCHARACTER-WAX_ON_WAX_OFF.title": "Wax On Wax Off"
 }

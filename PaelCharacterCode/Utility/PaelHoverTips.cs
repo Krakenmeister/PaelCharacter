@@ -6,4 +6,5 @@ namespace PaelCharacter.PaelCharacterCode.Utility;
 public class PaelHoverTips
 {
     [CustomEnum] public static StaticHoverTip Wake;
+    [CustomEnum] public static StaticHoverTip Wax;
 }

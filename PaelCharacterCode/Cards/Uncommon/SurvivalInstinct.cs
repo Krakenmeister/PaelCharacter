@@ -13,7 +13,7 @@ public class SurvivalInstinct() : PaelCharacterCard(1,
     CardType.Power, CardRarity.Uncommon,
     TargetType.Self)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("Power", 2M)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new ("Power", 2M)];
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.Static(PaelHoverTips.Wake)];
 
     protected override async Task OnPlay(

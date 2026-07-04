@@ -24,5 +24,7 @@
   "PAELCHARACTER-LASH_OUT.description": "Deal {Damage:diff()} damage for each time you've gained [gold]Block[/gold] this turn.{InCombat:\\n(Hits {CalculatedHits:diff()} {CalculatedHits:plural:time|times})|}",
   "PAELCHARACTER-LASH_OUT.title": "Lash Out",
   "PAELCHARACTER-SLATHER.description": "Deal {Damage:diff()} damage.\nWax {Wax:diff()} {Wax:plural:card|cards}.",
-  "PAELCHARACTER-SLATHER.title": "Slather"
+  "PAELCHARACTER-SLATHER.title": "Slather",
+  "PAELCHARACTER-CLAIM_TRIBUTE.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], gain {Gold:diff()} gold.",
+  "PAELCHARACTER-CLAIM_TRIBUTE.title": "Claim Tribute"
 }

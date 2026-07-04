@@ -1,5 +1,5 @@
 {
-  "PAELCHARACTER-DRIP_DROP.description": "At the start of each Combat, [gold]Wax[/gold] [blue]{WaxAmount}[/blue] random cards in your Hand.",
+  "PAELCHARACTER-DRIP_DROP.description": "At the start of each Combat, [gold]Wax[/gold] [blue]{Wax}[/blue] random cards in your Hand.",
   "PAELCHARACTER-DRIP_DROP.flavor": "",
   "PAELCHARACTER-DRIP_DROP.title": "Drip Drop"
 }

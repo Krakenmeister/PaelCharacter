@@ -22,5 +22,7 @@
   "PAELCHARACTER-NAP_TIME.description": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Sleep[/gold] {Sleep:diff()} {Sleep:plural:card|cards}.",
   "PAELCHARACTER-NAP_TIME.title": "Nap Time",
   "PAELCHARACTER-LASH_OUT.description": "Deal {Damage:diff()} damage for each time you've gained [gold]Block[/gold] this turn.{InCombat:\\n(Hits {CalculatedHits:diff()} {CalculatedHits:plural:time|times})|}",
-  "PAELCHARACTER-LASH_OUT.title": "Lash Out"
+  "PAELCHARACTER-LASH_OUT.title": "Lash Out",
+  "PAELCHARACTER-SLATHER.description": "Deal {Damage:diff()} damage.\nWax {Wax:diff()} {Wax:plural:card|cards}.",
+  "PAELCHARACTER-SLATHER.title": "Slather"
 }

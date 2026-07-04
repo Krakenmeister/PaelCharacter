@@ -16,10 +16,7 @@ public class DripDrop() : PaelCharacterRelic
 
     public override RelicRarity Rarity => RelicRarity.Starter;
 
-    protected override IEnumerable<DynamicVar> CanonicalVars =>
-    [
-        new WaxVar(WaxAmount)
-    ];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new WaxVar(WaxAmount)];
 
     public override Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
     {

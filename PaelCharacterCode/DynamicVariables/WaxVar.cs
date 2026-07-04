@@ -5,7 +5,7 @@ namespace PaelCharacter.PaelCharacterCode.DynamicVariables;
 
 public class WaxVar : DynamicVar
 {
-    public const string Key = "WaxAmount";
+    public const string Key = "Wax";
 
     public WaxVar(int waxCount) : base(Key, waxCount)
     {

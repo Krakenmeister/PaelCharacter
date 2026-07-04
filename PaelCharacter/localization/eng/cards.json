@@ -30,5 +30,7 @@
   "PAELCHARACTER-GOLDEN_HOARD.description": "Deal {CalculatedDamage:diff()} damage.\\nDeals additional damage for each {GoldDivisor} gold you have.",
   "PAELCHARACTER-GOLDEN_HOARD.title": "Golden Hoard",
   "PAELCHARACTER-WAX_ON_WAX_OFF.description": "Draw {Cards:diff()} {Cards:plural:card|cards}.\nIf it is [gold]Waxed[/gold], play it.{IfUpgraded:show:\\nOtherwise, [gold]Wax[/gold] it.|}",
-  "PAELCHARACTER-WAX_ON_WAX_OFF.title": "Wax On Wax Off"
+  "PAELCHARACTER-WAX_ON_WAX_OFF.title": "Wax On Wax Off",
+  "PAELCHARACTER-PROCRASTINATE.description": "{IfUpgraded:show:Draw {Cards:diff()} {Cards:plural:card|cards}.\\n[gold]Sleep[/gold] {Sleep:diff()} {Sleep:plural:card|cards}.|[gold]Sleep[/gold] {Sleep:diff()} {Sleep:plural:card|cards}.\\nDraw {Cards:diff()} {Cards:plural:card|cards}.}",
+  "PAELCHARACTER-PROCRASTINATE.title": "Procrastinate"
 }

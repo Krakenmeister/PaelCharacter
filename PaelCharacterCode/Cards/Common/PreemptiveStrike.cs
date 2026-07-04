@@ -15,7 +15,7 @@ public class PreemptiveStrike() : PaelCharacterCard(2,
 {
     protected override HashSet<CardTag> CanonicalTags => [CardTag.Strike];
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new DamageVar(13M, ValueProp.Move)
+        new DamageVar(12M, ValueProp.Move)
     ];
 
     protected override async Task OnPlay(

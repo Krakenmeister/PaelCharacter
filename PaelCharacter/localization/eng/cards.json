@@ -18,5 +18,7 @@
   "PAELCHARACTER-SURVIVAL_INSTINCT.description": "Whenever a card wakes up, gain {Power:diff()} [gold]Block[/gold].",
   "PAELCHARACTER-SURVIVAL_INSTINCT.title": "Survival Instinct",
   "PAELCHARACTER-NARCOLEPSY.description": "At the start of your turn, [gold]Sleep[/gold] {Sleep:diff()} {Sleep:plural:card|cards}.",
-  "PAELCHARACTER-NARCOLEPSY.title": "Narcolepsy"
+  "PAELCHARACTER-NARCOLEPSY.title": "Narcolepsy",
+  "PAELCHARACTER-NAP_TIME.description": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Sleep[/gold] {Sleep:diff()} {Sleep:plural:card|cards}.",
+  "PAELCHARACTER-NAP_TIME.title": "Nap Time"
 }

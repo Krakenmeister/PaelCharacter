@@ -28,4 +28,5 @@ public class PaelStrike() : PaelCharacterCard(1,
     }
 
     protected override void OnUpgrade() => DynamicVars.Damage.UpgradeValueBy(3M);
+    
 }

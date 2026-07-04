@@ -26,5 +26,7 @@
   "PAELCHARACTER-SLATHER.description": "Deal {Damage:diff()} damage.\nWax {Wax:diff()} {Wax:plural:card|cards}.",
   "PAELCHARACTER-SLATHER.title": "Slather",
   "PAELCHARACTER-CLAIM_TRIBUTE.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], gain {Gold:diff()} gold.",
-  "PAELCHARACTER-CLAIM_TRIBUTE.title": "Claim Tribute"
+  "PAELCHARACTER-CLAIM_TRIBUTE.title": "Claim Tribute",
+  "PAELCHARACTER-GOLDEN_HOARD.description": "Deal {CalculatedDamage:diff()} damage.\\nDeals additional damage for each {GoldDivisor} gold you have.",
+  "PAELCHARACTER-GOLDEN_HOARD.title": "Golden Hoard"
 }

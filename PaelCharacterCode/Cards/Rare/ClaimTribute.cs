@@ -32,7 +32,12 @@ public class ClaimTribute() : PaelCharacterCard(3,
         
         bool shouldTriggerFatal = play.Target.Powers.All(p => p.ShouldOwnerDeathTriggerFatal());
         
-        AttackCommand attackCommand = await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(play.Target).WithHitFx("vfx/vfx_attack_blunt", tmpSfx: "blunt_attack.mp3").Execute(choiceContext);
+        AttackCommand attackCommand = await DamageCmd
+            .Attack(DynamicVars.Damage.BaseValue)
+            .FromCard(this)
+            .Targeting(play.Target)
+            .WithHitFx("vfx/vfx_attack_blunt", tmpSfx: "blunt_attack.mp3")
+            .Execute(choiceContext);
         if (!shouldTriggerFatal || !attackCommand.Results
                 .SelectMany(r => r)
                 .Any(r => r.WasTargetKilled))

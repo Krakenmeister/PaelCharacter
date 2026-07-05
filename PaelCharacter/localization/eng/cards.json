@@ -38,5 +38,7 @@
   "PAELCHARACTER-LIQUIDATE.description": "Spend {GoldPrice:diff()} gold.\nGain {Energy:energyIcons()}.\nDraw {Cards:diff()} {Cards:plural:card|cards}.",
   "PAELCHARACTER-LIQUIDATE.title": "Liquidate",
   "PAELCHARACTER-RELAX.description": "Gain {Block:diff()} [gold]Block[/gold].\nNext turn, draw {Cards:diff()} {Cards:plural:card|cards} and gain {Energy:energyIcons()}.",
-  "PAELCHARACTER-RELAX.title": "Relax"
+  "PAELCHARACTER-RELAX.title": "Relax",
+  "PAELCHARACTER-GATHER_SCALES.description": "Gain {Block:diff()} [gold]Block[/gold] X times.",
+  "PAELCHARACTER-GATHER_SCALES.title": "Gather Scales"
 }

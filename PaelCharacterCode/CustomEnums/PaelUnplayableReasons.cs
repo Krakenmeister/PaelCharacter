@@ -7,4 +7,6 @@ public static class PaelUnplayableReasons
 {
     [CustomEnum]
     public static UnplayableReason Dormant;
+
+    [CustomEnum] public static UnplayableReason Broke;
 }

@@ -35,6 +35,6 @@
   "PAELCHARACTER-PROCRASTINATE.title": "Procrastinate",
   "PAELCHARACTER-SLICK_BACK.description": "Deal {Damage:diff()} damage.\nIf this is [gold]Waxed[/gold], return it to your [gold]Hand[/gold].",
   "PAELCHARACTER-SLICK_BACK.title": "Slick Back",
-  "PAELCHARACTER-LIQUIDATE.description": "",
+  "PAELCHARACTER-LIQUIDATE.description": "Spend {GoldPrice:diff()} gold.\nGain {Energy:energyIcons()}.\nDraw {Cards:diff()} {Cards:plural:card|cards}.",
   "PAELCHARACTER-LIQUIDATE.title": "Liquidate"
 }

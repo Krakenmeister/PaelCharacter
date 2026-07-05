@@ -10,5 +10,8 @@
   "PAELCHARACTER-NARCOLEPSY_POWER.title": "Narcolepsy",
   "PAELCHARACTER-INNER_SANCTUM_POWER.description": "",
   "PAELCHARACTER-INNER_SANCTUM_POWER.smartDescription": "",
-  "PAELCHARACTER-INNER_SANCTUM_POWER.title": ""
+  "PAELCHARACTER-INNER_SANCTUM_POWER.title": "",
+  "PAELCHARACTER-STALACTITE_POWER.description": "At the end of your turn, gain [blue]4[/blue] [gold]Block[/gold] for each unspent {energyPrefix:energyIcons(1)}.",
+  "PAELCHARACTER-STALACTITE_POWER.smartDescription": "At the end of your turn, gain [blue]{Amount}[/blue] [gold]Block[/gold] for each unspent {energyPrefix:energyIcons(1)}.",
+  "PAELCHARACTER-STALACTITE_POWER.title": "Stalactites"
 }

@@ -1,10 +1,10 @@
-﻿using MegaCrit.Sts2.Core.Commands;
+﻿using BaseLib.Extensions;
+using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models.Powers;
-using PaelCharacter.PaelCharacterCode.Cards;
 
 namespace PaelCharacter.PaelCharacterCode.Cards.Uncommon;
 
@@ -22,8 +22,8 @@ public class FleshToStone() : PaelCharacterCard(2,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        await PowerCmd.Apply<PlatingPower>(choiceContext, Owner.Creature, DynamicVars["PlatingPower"].IntValue, Owner.Creature, this);
+        await PowerCmd.Apply<PlatingPower>(choiceContext, Owner.Creature, DynamicVars.Power<PlatingPower>().IntValue, Owner.Creature, this);
     }
 
-    protected override void OnUpgrade() => DynamicVars["PlatingPower"].UpgradeValueBy(3M);
+    protected override void OnUpgrade() => DynamicVars.Power<PlatingPower>().UpgradeValueBy(3M);
 }

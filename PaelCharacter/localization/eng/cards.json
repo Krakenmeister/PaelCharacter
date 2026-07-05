@@ -51,6 +51,6 @@
   "PAELCHARACTER-STALACTITES.title": "Stalactites",
   "PAELCHARACTER-DRACONIC_GAMBLE.description": "Gain {GambleGain} {energyPrefix:energyIcons(1)}",
   "PAELCHARACTER-DRACONIC_GAMBLE.title": "Draconic Gamble",
-  "PAELCHARACTER-HONEY_POT.description": "Deal {Damage:diff()} damage to ALL enemies.\nWhenever [gold]Wax[/gold] is removed from this card, reapply it.",
+  "PAELCHARACTER-HONEY_POT.description": "Deal {Damage:diff()} damage to ALL enemies.\n[gold]Wax[/gold] cannot be removed from this card.",
   "PAELCHARACTER-HONEY_POT.title": "Honey Pot"
 }

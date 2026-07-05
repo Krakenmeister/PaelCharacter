@@ -26,15 +26,14 @@ public static class CardWaxExtensions
         WaxModifier? waxed = GetWaxModifier(card);
 
         if (waxed == null) return;
-        
-        await waxed.OnUnWax();
-        CardModifier.RemoveModifier(card, waxed);
 
-        if (card is HoneyPot)
-        {
-            card.Wax();
-        }
+        bool shouldRemoveWax = card is not HoneyPot;
         
+        await waxed.OnUnWax(shouldRemoveWax);
+
+        if (!shouldRemoveWax) return;
+        
+        CardModifier.RemoveModifier(card, waxed);
         NCardWaxOverlayPatch.ReloadWaxOverlayFor(card);
     }
     

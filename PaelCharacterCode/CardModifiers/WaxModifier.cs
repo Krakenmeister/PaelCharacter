@@ -55,14 +55,14 @@ public class WaxModifier : CardModifier
         await Owner.UnWax();
     }
 
-    public async Task OnUnWax()
+    public async Task OnUnWax(bool removeKeyword = true)
     {
         if (Owner == null)
         {
             return;
         }
 
-        if (addedWaxedKeyword)
+        if (addedWaxedKeyword && removeKeyword)
         {
             Owner.RemoveKeyword(PaelCardKeywords.Waxed);
             addedWaxedKeyword = false;

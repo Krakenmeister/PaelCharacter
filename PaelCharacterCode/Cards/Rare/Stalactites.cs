@@ -12,7 +12,7 @@ public class Stalactites() : PaelCharacterCard(1,
     CardType.Power, CardRarity.Rare,
     TargetType.Self)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<StalactitePower>(4)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<StalactitePower>(5)];
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.Static(StaticHoverTip.Block)];
 
     protected override async Task OnPlay(
@@ -22,5 +22,5 @@ public class Stalactites() : PaelCharacterCard(1,
         await PowerCmd.Apply<StalactitePower>(choiceContext, Owner.Creature, DynamicVars.Power<StalactitePower>().IntValue, Owner.Creature, this);
     }
 
-    protected override void OnUpgrade() => DynamicVars.Power<StalactitePower>().UpgradeValueBy(2);
+    protected override void OnUpgrade() => DynamicVars.Power<StalactitePower>().UpgradeValueBy(3);
 }

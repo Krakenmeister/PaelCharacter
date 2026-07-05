@@ -1,6 +1,7 @@
 ﻿using BaseLib.Abstracts;
 using MegaCrit.Sts2.Core.Models;
 using PaelCharacter.PaelCharacterCode.CardModifiers;
+using PaelCharacter.PaelCharacterCode.Cards.Common;
 using PaelCharacter.PaelCharacterCode.Patches.Wax;
 
 namespace PaelCharacter.PaelCharacterCode.Extensions;
@@ -16,7 +17,6 @@ public static class CardWaxExtensions
     {
         if (card.IsWaxed()) return;
         
-        
         CardModifier.AddModifier<WaxModifier>(card);
         NCardWaxOverlayPatch.ReloadWaxOverlayFor(card);
     }
@@ -29,6 +29,12 @@ public static class CardWaxExtensions
         
         await waxed.OnUnWax();
         CardModifier.RemoveModifier(card, waxed);
+
+        if (card is HoneyPot)
+        {
+            card.Wax();
+        }
+        
         NCardWaxOverlayPatch.ReloadWaxOverlayFor(card);
     }
     

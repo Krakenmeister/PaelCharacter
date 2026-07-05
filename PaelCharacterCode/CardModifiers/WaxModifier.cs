@@ -67,6 +67,7 @@ public class WaxModifier : CardModifier
             addedWaxedKeyword = false;
         }
         
+        await Task.Delay(100);
         await CreatureCmd.GainBlock(
             Owner.Owner.Creature,
             new BlockVar(2M, ValueProp.Move),

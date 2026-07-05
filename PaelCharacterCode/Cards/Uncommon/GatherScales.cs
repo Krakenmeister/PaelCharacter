@@ -22,6 +22,7 @@ public class GatherScales() : PaelCharacterCard(0,
         for (int i = 0; i < xCount; i++)
         {
             await CreatureCmd.GainBlock(Owner.Creature, DynamicVars.Block, play);
+            await Task.Delay(100);
         }
     }
 

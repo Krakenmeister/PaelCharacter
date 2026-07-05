@@ -44,5 +44,7 @@
   "PAELCHARACTER-LAYER_UP.description": "Gain {Block:diff()} [gold]Block[/gold] twice.",
   "PAELCHARACTER-LAYER_UP.title": "Layer Up",
   "PAELCHARACTER-INNER_SANCTUM.description": "Take an extra turn after this one.\nEnd your turn.",
-  "PAELCHARACTER-INNER_SANCTUM.title": "Inner Sanctum"
+  "PAELCHARACTER-INNER_SANCTUM.title": "Inner Sanctum",
+  "PAELCHARACTER-FLESH_TO_STONE.description": "Gain {PlatingPower:diff()} [gold]Plating[/gold].",
+  "PAELCHARACTER-FLESH_TO_STONE.title": "Flesh To Stone"
 }

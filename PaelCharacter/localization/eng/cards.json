@@ -52,5 +52,7 @@
   "PAELCHARACTER-DRACONIC_GAMBLE.description": "Gain {GambleGain} {energyPrefix:energyIcons(1)}",
   "PAELCHARACTER-DRACONIC_GAMBLE.title": "Draconic Gamble",
   "PAELCHARACTER-HONEY_POT.description": "Deal {Damage:diff()} damage to ALL enemies.\n[gold]Wax[/gold] cannot be removed from this card.",
-  "PAELCHARACTER-HONEY_POT.title": "Honey Pot"
+  "PAELCHARACTER-HONEY_POT.title": "Honey Pot",
+  "PAELCHARACTER-SLEEPING_GIANT.description": "Deal {Damage:diff()} damage.\nWhen this card wakes up, increase its damage by {Increase} this combat.",
+  "PAELCHARACTER-SLEEPING_GIANT.title": "Sleeping Giant"
 }

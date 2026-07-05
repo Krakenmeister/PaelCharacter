@@ -12,13 +12,24 @@ namespace PaelCharacter.PaelCharacterCode.Patches.Sleep;
 [HarmonyPatch(typeof(Hook), nameof(Hook.BeforeHandDraw))]
 public static class WakeDormantBeforeHandDrawPatch
 {
-    public static void Prefix(ICombatState combatState, Player player, PlayerChoiceContext playerChoiceContext)
+    public static void Postfix(
+        Player player,
+        ref Task __result)
     {
+        __result = WakeDormantCards(__result, player);
+    }
+
+    private static async Task WakeDormantCards(
+        Task originalTask,
+        Player player)
+    {
+        await originalTask;
+
         foreach (CardModel card in PileType.Hand.GetPile(player).Cards.ToList())
         {
             if (card.IsReadyToWakeFromSleep())
             {
-                card.WakeUp();
+                await card.WakeUp();
             }
         }
     }

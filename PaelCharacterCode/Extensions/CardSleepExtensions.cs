@@ -1,6 +1,7 @@
 ﻿using BaseLib.Abstracts;
 using MegaCrit.Sts2.Core.Models;
 using PaelCharacter.PaelCharacterCode.CardModifiers;
+using PaelCharacter.PaelCharacterCode.Cards;
 using PaelCharacter.PaelCharacterCode.Patches.Sleep;
 
 namespace PaelCharacter.PaelCharacterCode.Extensions;
@@ -20,7 +21,7 @@ public static class CardSleepExtensions
         NCardDormantOverlayPatch.ReloadDormantOverlayFor(card);
     }
 
-    public static void WakeUp(this CardModel card)
+    public static async Task WakeUp(this CardModel card)
     {
         DormantModifier? dormant = GetDormantModifier(card);
 
@@ -29,6 +30,11 @@ public static class CardSleepExtensions
         dormant.OnWakeUp();
         CardModifier.RemoveModifier(card, dormant);
         NCardDormantOverlayPatch.ReloadDormantOverlayFor(card);
+        
+        if (card is PaelCharacterCard paelCard)
+        {
+            await paelCard.InvokeAfterWokeUp();
+        }
     }
     
     public static DormantModifier? GetDormantModifier(this CardModel card)

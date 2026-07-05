@@ -24,6 +24,13 @@ public class MorningBreath() : PaelCharacterCard(1,
             .WithHitFx("vfx/vfx_attack_slash")
             .Execute(choiceContext);
     }
+    
+    protected override Task AfterWokeUp()
+    {
+        EnergyCost.SetThisTurn(0);
+
+        return Task.CompletedTask;
+    }
 
     protected override void OnUpgrade() => DynamicVars.Damage.UpgradeValueBy(3M);
 }

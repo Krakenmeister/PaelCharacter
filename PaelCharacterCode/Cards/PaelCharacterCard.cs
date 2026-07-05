@@ -29,4 +29,8 @@ public abstract class PaelCharacterCard(int cost, CardType type, CardRarity rari
     //Uses card_portraits/card_name.png as image path. These should be smaller images.
     public override string PortraitPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".CardImagePath();
     public override string BetaPortraitPath => $"beta/{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".CardImagePath();
+    
+    protected virtual Task AfterWokeUp() => Task.CompletedTask;
+
+    internal Task InvokeAfterWokeUp() => AfterWokeUp();
 }

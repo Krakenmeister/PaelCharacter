@@ -3,6 +3,7 @@ using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Helpers;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.ValueProps;
+using PaelCharacter.PaelCharacterCode.Cards;
 using PaelCharacter.PaelCharacterCode.Cards.Common;
 using PaelCharacter.PaelCharacterCode.CustomEnums;
 using PaelCharacter.PaelCharacterCode.Powers;
@@ -72,11 +73,6 @@ public class DormantModifier : CardModifier
 
         if (addedDormantKeyword)
         {
-            if (Owner is MorningBreath)
-            {
-                Owner.EnergyCost.SetThisTurn(0);
-            }
-
             if (Owner.Owner.HasPower<SurvivalInstinctPower>())
             {
                 TaskHelper.RunSafely(CreatureCmd.GainBlock(Owner.Owner.Creature, new BlockVar(Owner.Owner.Creature.GetPower<SurvivalInstinctPower>().Amount, ValueProp.Move), null));

@@ -48,5 +48,7 @@
   "PAELCHARACTER-FLESH_TO_STONE.description": "Gain {PlatingPower:diff()} [gold]Plating[/gold].",
   "PAELCHARACTER-FLESH_TO_STONE.title": "Flesh To Stone",
   "PAELCHARACTER-STALACTITES.description": "At the end of your turn, gain {StalactitePower:diff()} [gold]Block[/gold] for each unspent {energyPrefix:energyIcons(1)}.",
-  "PAELCHARACTER-STALACTITES.title": "Stalactites"
+  "PAELCHARACTER-STALACTITES.title": "Stalactites",
+  "PAELCHARACTER-DRACONIC_GAMBLE.description": "Gain {GambleGain} {energyPrefix:energyIcons(1)}",
+  "PAELCHARACTER-DRACONIC_GAMBLE.title": "Draconic Gamble"
 }

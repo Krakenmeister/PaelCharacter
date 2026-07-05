@@ -1,19 +1,17 @@
-using MegaCrit.Sts2.Core.Commands;
+﻿using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
-using PaelCharacter.PaelCharacterCode.Cards;
-using PaelCharacter.PaelCharacterCode.DynamicVariables;
-using PaelCharacter.PaelCharacterCode.Powers;
 
 namespace PaelCharacter.PaelCharacterCode.Cards.Uncommon;
 
-public class PreservedFlower() : PaelCharacterCard(0,
+public class DraconicGamble() : PaelCharacterCard(5,
     CardType.Skill, CardRarity.Uncommon,
     TargetType.Self)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new PreservedFlowerVar(1)];
+    private const string GambleGainKey = "GambleGain";
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar(GambleGainKey, 9M)];
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [EnergyHoverTip];
 
@@ -21,8 +19,8 @@ public class PreservedFlower() : PaelCharacterCard(0,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        await PowerCmd.Apply<PreservedFlowerPower>(choiceContext, Owner.Creature, DynamicVars[PreservedFlowerVar.Key].IntValue, Owner.Creature, this);
+        await PlayerCmd.GainEnergy(DynamicVars[GambleGainKey].IntValue, Owner);
     }
 
-    protected override void OnUpgrade() => RemoveKeyword(CardKeyword.Exhaust);
+    protected override void OnUpgrade() => AddKeyword(CardKeyword.Retain);
 }

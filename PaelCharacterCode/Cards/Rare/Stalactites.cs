@@ -8,7 +8,7 @@ using PaelCharacter.PaelCharacterCode.Powers;
 
 namespace PaelCharacter.PaelCharacterCode.Cards.Rare;
 
-public class Stalactites() : PaelCharacterCard(2,
+public class Stalactites() : PaelCharacterCard(1,
     CardType.Power, CardRarity.Rare,
     TargetType.Self)
 {

@@ -42,5 +42,7 @@
   "PAELCHARACTER-GATHER_SCALES.description": "Gain {Block:diff()} [gold]Block[/gold] X times.",
   "PAELCHARACTER-GATHER_SCALES.title": "Gather Scales",
   "PAELCHARACTER-LAYER_UP.description": "Gain {Block:diff()} [gold]Block[/gold] twice.",
-  "PAELCHARACTER-LAYER_UP.title": "Layer Up"
+  "PAELCHARACTER-LAYER_UP.title": "Layer Up",
+  "PAELCHARACTER-INNER_SANCTUM.description": "Take an extra turn after this one.\nEnd your turn.",
+  "PAELCHARACTER-INNER_SANCTUM.title": "Inner Sanctum"
 }

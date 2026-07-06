@@ -54,5 +54,7 @@
   "PAELCHARACTER-HONEY_POT.description": "Deal {Damage:diff()} damage to ALL enemies.\n[gold]Wax[/gold] cannot be removed from this card.",
   "PAELCHARACTER-HONEY_POT.title": "Honey Pot",
   "PAELCHARACTER-SLEEPING_GIANT.description": "Deal {Damage:diff()} damage.\nWhen this card wakes up, increase its damage by {Increase} this combat.",
-  "PAELCHARACTER-SLEEPING_GIANT.title": "Sleeping Giant"
+  "PAELCHARACTER-SLEEPING_GIANT.title": "Sleeping Giant",
+  "PAELCHARACTER-CATACOMBS.description": "Deal {Damage:diff()} damage for each turn you've ended this combat.{InCombat:\\n(Hits {CalculatedHits:diff()} {CalculatedHits:plural:time|times})|}",
+  "PAELCHARACTER-CATACOMBS.title": "Catacombs"
 }

@@ -1,9 +1,11 @@
 ﻿using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.ValueProps;
 using PaelCharacter.PaelCharacterCode.Cards;
+using PaelCharacter.PaelCharacterCode.Utility;
 
 namespace PaelCharacter.PaelCharacterCode.Cards.Uncommon;
   
@@ -16,8 +18,9 @@ public class SleepingGiant() : PaelCharacterCard(1,
     
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new DamageVar(7M, ValueProp.Move),
-        new DynamicVar(IncreaseKey, 6M)
+        new DynamicVar(IncreaseKey, 7M)
     ];
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.Static(PaelHoverTips.Wake)];
     
     private Decimal ExtraDamageFromSleeping
     {

@@ -56,5 +56,7 @@
   "PAELCHARACTER-SLEEPING_GIANT.description": "Deal {Damage:diff()} damage.\nWhen this card wakes up, increase its damage by {Increase} this combat.",
   "PAELCHARACTER-SLEEPING_GIANT.title": "Sleeping Giant",
   "PAELCHARACTER-CATACOMBS.description": "Deal {Damage:diff()} damage for each turn you've ended this combat.{InCombat:\\n(Hits {CalculatedHits:diff()} {CalculatedHits:plural:time|times})|}",
-  "PAELCHARACTER-CATACOMBS.title": "Catacombs"
+  "PAELCHARACTER-CATACOMBS.title": "Catacombs",
+  "PAELCHARACTER-CAKED_ON.description": "Deal {CalculatedDamage:diff()} damage.\nDeals {ExtraDamage:diff()} additional damage for each [gold]Waxed[/gold] card you've played this combat.",
+  "PAELCHARACTER-CAKED_ON.title": "Caked On"
 }
